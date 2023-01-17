@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from './img/dayback-colored.png';
+import bg from './img/bg.png';
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -85,7 +86,7 @@ function App() {
                     <span className="sr-only">Your Company</span>
                     <img
                       className="h-8"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                      src={bg}
                       alt=""
                     />
                   </a>
