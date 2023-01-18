@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'top-bg': "url('./img/bg.png')"
+      },
+      fontFamily:{
+        OpenSans: "Open Sans"
       }
     },
   },
